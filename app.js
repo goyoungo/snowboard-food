@@ -1,4 +1,4 @@
-const REQUIRED_FIELDS = ["name", "address", "phone", "memo", "businessHours"];
+const REQUIRED_FIELDS = ["name", "address"];
 
 const statusEl = document.getElementById("status");
 const listEl = document.getElementById("list");
@@ -30,8 +30,7 @@ async function loadRestaurants() {
   const data = await res.json();
   if (!Array.isArray(data)) throw new Error("데이터 형식 오류: 배열이 아님");
 
-  const validated = data.map((item, idx) => validateRestaurant(item, idx));
-  return validated;
+  return data.map((item, idx) => validateRestaurant(item, idx));
 }
 
 function validateRestaurant(item, idx) {
@@ -45,13 +44,26 @@ function validateRestaurant(item, idx) {
     }
   }
 
+  const name = valueOrDefault(item.name, "정보 확인 필요");
+  const address = valueOrDefault(item.address, "정보 확인 필요");
+
   return {
-    name: valueOrDefault(item.name, "정보 확인 필요"),
-    address: valueOrDefault(item.address, "정보 확인 필요"),
-    phone: valueOrDefault(item.phone, "정보 확인 필요"),
+    name,
+    menu: valueOrDefault(item.menu, "정보 확인 필요"),
+    address,
+    number: valueOrDefault(item.number || item.phone, "정보 확인 필요"),
+    recommenders: valueOrDefault(item.recommenders, "❗️추천없음"),
+    disrecommenders: valueOrDefault(item.disrecommenders, "❗️비추없음"),
+    score: valueOrDefault(item.score, "0"),
     memo: valueOrDefault(item.memo, "정보 확인 필요"),
-    businessHours: valueOrDefault(item.businessHours, "정보 확인 필요")
+    businessHours: valueOrDefault(item.businessHours, "정보 확인 필요"),
+    naverMapUrl: item.naverMapUrl || buildNaverMapUrl(name, address)
   };
+}
+
+function buildNaverMapUrl(name, address) {
+  const q = encodeURIComponent(`${name} ${address}`.trim());
+  return `https://map.naver.com/v5/search/${q}`;
 }
 
 function valueOrDefault(v, fallback) {
@@ -66,10 +78,15 @@ function renderRestaurantCard(item) {
   return `
     <article class="card">
       <h2 class="name">${escapeHtml(item.name)}</h2>
-      <p class="row"><span class="label">주소</span>${escapeHtml(item.address)}</p>
-      <p class="row"><span class="label">전화번호</span>${escapeHtml(item.phone)}</p>
+      <p class="row"><span class="label">Menu 및 기타</span>${escapeHtml(item.menu)}</p>
+      <p class="row"><span class="label">Address</span>${escapeHtml(item.address)}</p>
+      <p class="row"><span class="label">Number</span>${escapeHtml(item.number)}</p>
+      <p class="row"><span class="label">추천자</span>${escapeHtml(item.recommenders)}</p>
+      <p class="row"><span class="label">비추천자</span>${escapeHtml(item.disrecommenders)}</p>
+      <p class="row"><span class="label">추-비추</span>${escapeHtml(item.score)}</p>
       <p class="row"><span class="label">메모</span>${escapeHtml(item.memo)}</p>
-      <p class="row"><span class="label">영업시간</span>${escapeHtml(item.businessHours)}</p>
+      <p class="row"><span class="label">영업 시간</span>${escapeHtml(item.businessHours)}</p>
+      <p class="row"><a class="map-link" href="${escapeAttr(item.naverMapUrl)}" target="_blank" rel="noopener noreferrer">🗺️ 네이버 지도 보기</a></p>
     </article>
   `;
 }
@@ -97,4 +114,8 @@ function escapeHtml(str) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+}
+
+function escapeAttr(str) {
+  return escapeHtml(str);
 }

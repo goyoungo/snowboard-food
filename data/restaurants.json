@@ -1,247 +1,422 @@
 [
   {
     "name": "행운식당",
+    "menu": "영양탕",
     "address": "강원 횡성군 둔내면 둔내로51번길 10-2",
-    "phone": "033-342-1059",
-    "memo": "영양탕",
-    "businessHours": "매일 11:00 - 20:00"
+    "number": "033-342-1059",
+    "recommenders": "❗️추천없음",
+    "disrecommenders": "❗️비추없음",
+    "score": "0",
+    "memo": "정보 확인 필요",
+    "businessHours": "매일 11:00 - 20:00",
+    "naverMapUrl": "https://map.naver.com/v5/search/행운식당%20강원%20횡성군%20둔내면%20둔내로51번길%2010-2"
   },
   {
     "name": "시장순대",
+    "menu": "순대국, 육개장",
     "address": "강원 횡성군 둔내면 둔내로 9-6",
-    "phone": "033-344-0022",
-    "memo": "순대국, 육개장",
-    "businessHours": "일요일 정기휴무11:30 - 22:00"
+    "number": "033-344-0022",
+    "recommenders": "대빵이, 쁘락지, 진수",
+    "disrecommenders": "❗️비추없음",
+    "score": "3",
+    "memo": "정보 확인 필요",
+    "businessHours": "일요일 정기휴무11:30 - 22:00",
+    "naverMapUrl": "https://map.naver.com/v5/search/시장순대%20강원%20횡성군%20둔내면%20둔내로%209-6"
   },
   {
     "name": "둔내역한우",
+    "menu": "횡성한우",
     "address": "강원 횡성군 둔내면 고원로 117 둔내역한우 본관",
-    "phone": "033-343-7766",
-    "memo": "횡성한우",
-    "businessHours": "정보 확인 필요"
+    "number": "033-343-7766",
+    "recommenders": "❗️추천없음",
+    "disrecommenders": "❗️비추없음",
+    "score": "0",
+    "memo": "정보 확인 필요",
+    "businessHours": "정보 확인 필요",
+    "naverMapUrl": "https://map.naver.com/v5/search/둔내역한우%20강원%20횡성군%20둔내면%20고원로%20117%20둔내역한우%20본관"
   },
   {
     "name": "한우피아",
+    "menu": "횡성한우",
     "address": "강원 횡성군 둔내면 고원로 141",
-    "phone": "033-342-9940",
-    "memo": "횡성한우",
-    "businessHours": "매일 10:20 - 21:30"
+    "number": "033-342-9940",
+    "recommenders": "이므니",
+    "disrecommenders": "❗️비추없음",
+    "score": "1",
+    "memo": "정보 확인 필요",
+    "businessHours": "매일 10:20 - 21:30",
+    "naverMapUrl": "https://map.naver.com/v5/search/한우피아%20강원%20횡성군%20둔내면%20고원로%20141"
   },
   {
     "name": "들꽃피는언덕",
+    "menu": "눈오면 썰매, 쌈밥, 주차",
     "address": "강원 횡성군 둔내면 고원로 158-27",
-    "phone": "033-344-1808",
-    "memo": "눈오면 썰매, 쌈밥, 주차",
-    "businessHours": "월/화 휴무11:00 - 21:0015:00 - 16:30 브레이크타임14:00, 20:00 라스트오더"
+    "number": "033-344-1808",
+    "recommenders": "고융고, 진수",
+    "disrecommenders": "❗️비추없음",
+    "score": "2",
+    "memo": "정보 확인 필요",
+    "businessHours": "월/화 휴무11:00 - 21:0015:00 - 16:30 브레이크타임14:00, 20:00 라스트오더",
+    "naverMapUrl": "https://map.naver.com/v5/search/들꽃피는언덕%20강원%20횡성군%20둔내면%20고원로%20158-27"
   },
   {
     "name": "청솔순대",
+    "menu": "순대국, 순대볶음, 포장 가능",
     "address": "강원 횡성군 둔내면 둔내로51번길 10-1",
-    "phone": "033-344-7768",
-    "memo": "당면순대… | 순대국, 순대볶음, 포장 가능",
-    "businessHours": "정보 확인 필요"
+    "number": "033-344-7768",
+    "recommenders": "❗️추천없음",
+    "disrecommenders": "S.Gyun, 이승훈",
+    "score": "-2",
+    "memo": "당면순대…",
+    "businessHours": "정보 확인 필요",
+    "naverMapUrl": "https://map.naver.com/v5/search/청솔순대%20강원%20횡성군%20둔내면%20둔내로51번길%2010-1"
   },
   {
     "name": "미락",
+    "menu": "기본반찬:게장, 김치찜, 오삼불고기, 주차",
     "address": "강원 횡성군 둔내면 둔방로 8 둔방로 8",
-    "phone": "033-345-1477",
-    "memo": "기본반찬:게장, 김치찜, 오삼불고기, 주차",
-    "businessHours": "수요일 휴무11:00 - 21:0015:00 - 17:00 브레이크타임"
+    "number": "033-345-1477",
+    "recommenders": "고융고",
+    "disrecommenders": "❗️비추없음",
+    "score": "1",
+    "memo": "정보 확인 필요",
+    "businessHours": "수요일 휴무11:00 - 21:0015:00 - 17:00 브레이크타임",
+    "naverMapUrl": "https://map.naver.com/v5/search/미락%20강원%20횡성군%20둔내면%20둔방로%208%20둔방로%208"
   },
   {
     "name": "언덕위에장독대",
+    "menu": "묵은지삼겹살",
     "address": "강원 횡성군 둔내면 둔내로 93-12",
-    "phone": "033-342-1460",
-    "memo": "가격이 극락방지턱인 곳 | 묵은지삼겹살",
-    "businessHours": "정보 확인 필요"
+    "number": "033-342-1460",
+    "recommenders": "삽",
+    "disrecommenders": "❗️비추없음",
+    "score": "1",
+    "memo": "가격이 극락방지턱인 곳",
+    "businessHours": "정보 확인 필요",
+    "naverMapUrl": "https://map.naver.com/v5/search/언덕위에장독대%20강원%20횡성군%20둔내면%20둔내로%2093-12"
   },
   {
     "name": "산속의 곰탕",
+    "menu": "곱창전골, 포장 가능",
     "address": "강원 횡성군 둔내면 둔내로51번길 9-1",
-    "phone": "033-345-7782",
-    "memo": "곱창전골, 포장 가능",
-    "businessHours": "매일 09:00 - 21:00"
+    "number": "033-345-7782",
+    "recommenders": "고융고, 쁘락지, 진수",
+    "disrecommenders": "❗️비추없음",
+    "score": "3",
+    "memo": "정보 확인 필요",
+    "businessHours": "매일 09:00 - 21:00",
+    "naverMapUrl": "https://map.naver.com/v5/search/산속의%20곰탕%20강원%20횡성군%20둔내면%20둔내로51번길%209-1"
   },
   {
     "name": "자매식당",
+    "menu": "만둣국, 장칼국수",
     "address": "강원 횡성군 둔내면 둔내로51번길 14",
-    "phone": "033-344-2317",
-    "memo": "장칼국수는 장날에만 합니다.. | 만둣국, 장칼국수",
-    "businessHours": "매일 10:00 - 19:00"
+    "number": "033-344-2317",
+    "recommenders": "고융고",
+    "disrecommenders": "❗️비추없음",
+    "score": "1",
+    "memo": "장칼국수는 장날에만 합니다..",
+    "businessHours": "매일 10:00 - 19:00",
+    "naverMapUrl": "https://map.naver.com/v5/search/자매식당%20강원%20횡성군%20둔내면%20둔내로51번길%2014"
   },
   {
     "name": "어랑",
+    "menu": "동태탕",
     "address": "강원 횡성군 둔내면 둔방로13번길 13",
-    "phone": "033-345-8859",
-    "memo": "동태탕",
-    "businessHours": "월요일 정기휴무10:00 - 14:30"
+    "number": "033-345-8859",
+    "recommenders": "고융고, 진수",
+    "disrecommenders": "❗️비추없음",
+    "score": "2",
+    "memo": "정보 확인 필요",
+    "businessHours": "월요일 정기휴무10:00 - 14:30",
+    "naverMapUrl": "https://map.naver.com/v5/search/어랑%20강원%20횡성군%20둔내면%20둔방로13번길%2013"
   },
   {
     "name": "해우소",
+    "menu": "장칼국수, 전골, 포장 가능, 해물순두부",
     "address": "강원 횡성군 둔내면 둔내로51번길 5",
-    "phone": "033-342-5268",
-    "memo": "해물순두부 맛있음[대체로 평 좋음]2324 장칼국수시작황태해장국은 아쉬웠다[고융고] | 장칼국수, 전골, 포장 가능, 해물순두부",
-    "businessHours": "격주 일요일 정기휴무10:00 - 21:0020:00 라스트오더"
+    "number": "033-342-5268",
+    "recommenders": "고융고, 곰, 노예1호, 밍, 비아, 이용운, 진수, 허남진",
+    "disrecommenders": "❗️비추없음",
+    "score": "8",
+    "memo": "해물순두부 맛있음[대체로 평 좋음]2324 장칼국수시작황태해장국은 아쉬웠다[고융고]",
+    "businessHours": "격주 일요일 정기휴무10:00 - 21:0020:00 라스트오더",
+    "naverMapUrl": "https://map.naver.com/v5/search/해우소%20강원%20횡성군%20둔내면%20둔내로51번길%205"
   },
   {
     "name": "삼정",
+    "menu": "횡성한우",
     "address": "강원 횡성군 둔내면 경강로 4536-3 삼정",
-    "phone": "033-342-3365",
-    "memo": "비쌈! 매우! 많이! 접대용! | 횡성한우",
-    "businessHours": "화요일 정기휴무11:30 - 20:3015:00 - 17:30 브레이크타임"
+    "number": "033-342-3365",
+    "recommenders": "쁘락지",
+    "disrecommenders": "❗️비추없음",
+    "score": "1",
+    "memo": "비쌈! 매우! 많이! 접대용!",
+    "businessHours": "화요일 정기휴무11:30 - 20:3015:00 - 17:30 브레이크타임",
+    "naverMapUrl": "https://map.naver.com/v5/search/삼정%20강원%20횡성군%20둔내면%20경강로%204536-3%20삼정"
   },
   {
     "name": "마루",
+    "menu": "김치찜, 오징어볶음, 주차, 포장 가능",
     "address": "강원 횡성군 둔내면 고원로398번길 6-20",
-    "phone": "0507-1406-1382",
-    "memo": "김치찜, 오징어볶음, 주차, 포장 가능",
-    "businessHours": "화요일 휴무월,수,목[금-일]16:00-23:00[16:00-23:50]22:00 라스트오더[22:50]"
+    "number": "0507-1406-1382",
+    "recommenders": "❗️추천없음",
+    "disrecommenders": "❗️비추없음",
+    "score": "0",
+    "memo": "정보 확인 필요",
+    "businessHours": "화요일 휴무월,수,목[금-일]16:00-23:00[16:00-23:50]22:00 라스트오더[22:50]",
+    "naverMapUrl": "https://map.naver.com/v5/search/마루%20강원%20횡성군%20둔내면%20고원로398번길%206-20"
   },
   {
     "name": "화수목",
+    "menu": "횡성한우",
     "address": "강원 횡성군 둔내면 둔방내리 55-3",
-    "phone": "033-344-9393",
-    "memo": "횡성한우",
-    "businessHours": "11:00 - 21:30"
+    "number": "033-344-9393",
+    "recommenders": "❗️추천없음",
+    "disrecommenders": "쁘락지",
+    "score": "-1",
+    "memo": "정보 확인 필요",
+    "businessHours": "11:00 - 21:30",
+    "naverMapUrl": "https://map.naver.com/v5/search/화수목%20강원%20횡성군%20둔내면%20둔방내리%2055-3"
   },
   {
     "name": "문화정육점",
+    "menu": "고기, 주차",
     "address": "강원 횡성군 둔내면 둔방로 9",
-    "phone": "033-345-8987",
-    "memo": "고기, 주차",
-    "businessHours": "12:00 - 21:0015:00 - 17:00 브레이크타임"
+    "number": "033-345-8987",
+    "recommenders": "❗️추천없음",
+    "disrecommenders": "❗️비추없음",
+    "score": "0",
+    "memo": "정보 확인 필요",
+    "businessHours": "12:00 - 21:0015:00 - 17:00 브레이크타임",
+    "naverMapUrl": "https://map.naver.com/v5/search/문화정육점%20강원%20횡성군%20둔내면%20둔방로%209"
   },
   {
     "name": "둔내 숯불 닭갈비",
+    "menu": "숯불닭갈비, 잔치국수, 주차",
     "address": "강원 횡성군 둔내면 둔내로48번길 3-7",
-    "phone": "033-343-4988",
-    "memo": "숯불닭갈비, 잔치국수, 주차",
-    "businessHours": "매일 11:00 - 24:00"
+    "number": "033-343-4988",
+    "recommenders": "고융고, 남민혁",
+    "disrecommenders": "❗️비추없음",
+    "score": "2",
+    "memo": "정보 확인 필요",
+    "businessHours": "매일 11:00 - 24:00",
+    "naverMapUrl": "https://map.naver.com/v5/search/둔내%20숯불%20닭갈비%20강원%20횡성군%20둔내면%20둔내로48번길%203-7"
   },
   {
     "name": "둔내 웅이네",
+    "menu": "옹심이칼국수, 짜장면, 탕수육, 포장 가능",
     "address": "강원 횡성군 둔내면 청태산로 89",
-    "phone": "033-345-6420",
-    "memo": "오소이 | 옹심이칼국수, 짜장면, 탕수육, 포장 가능",
-    "businessHours": "월요일 휴무11:00 - 20:0015:00 - 17:00 브레이크타임"
+    "number": "033-345-6420",
+    "recommenders": "쁘락지, 삽",
+    "disrecommenders": "이용운, 진수",
+    "score": "0",
+    "memo": "오소이",
+    "businessHours": "월요일 휴무11:00 - 20:0015:00 - 17:00 브레이크타임",
+    "naverMapUrl": "https://map.naver.com/v5/search/둔내%20웅이네%20강원%20횡성군%20둔내면%20청태산로%2089"
   },
   {
     "name": "인더하우스",
+    "menu": "포장 가능, 화덕피자",
     "address": "강원 횡성군 둔내면 둔내로 62-2",
-    "phone": "010-2598-7978",
-    "memo": "화덕이라 피자 나오는데 시간이 좀 걸림 | 포장 가능, 화덕피자",
-    "businessHours": "매일 11:00 - 23:00"
+    "number": "010-2598-7978",
+    "recommenders": "고융고, 대빵이, 진수",
+    "disrecommenders": "❗️비추없음",
+    "score": "3",
+    "memo": "화덕이라 피자 나오는데 시간이 좀 걸림",
+    "businessHours": "매일 11:00 - 23:00",
+    "naverMapUrl": "https://map.naver.com/v5/search/인더하우스%20강원%20횡성군%20둔내면%20둔내로%2062-2"
   },
   {
     "name": "화이트크로우 브루잉",
+    "menu": "맥주, 수제맥주, 펍, 푸틴, 피자",
     "address": "강원도 평창군 방림면 고원로 65",
-    "phone": "0507-1401-1202",
-    "memo": "수제맥주양조장월-목 맥주 테이크아웃만 가능* 음식주문 가능 시간금: 16:00 ~ 22:00토, 일: 11:00 ~ 20:00 | 맥주, 수제맥주, 펍, 푸틴, 피자",
-    "businessHours": "월-목 09:00 - 18:00금 09:00 - 22:00토 11:00 - 22:00일 11:00 - 20:00"
+    "number": "0507-1401-1202",
+    "recommenders": "쁘락지",
+    "disrecommenders": "❗️비추없음",
+    "score": "1",
+    "memo": "수제맥주양조장월-목 맥주 테이크아웃만 가능* 음식주문 가능 시간금: 16:00 ~ 22:00토, 일: 11:00 ~ 20:00",
+    "businessHours": "월-목 09:00 - 18:00금 09:00 - 22:00토 11:00 - 22:00일 11:00 - 20:00",
+    "naverMapUrl": "https://map.naver.com/v5/search/화이트크로우%20브루잉%20강원도%20평창군%20방림면%20고원로%2065"
   },
   {
     "name": "뚝배기장원",
+    "menu": "정보 확인 필요",
     "address": "둔내면 둔내로51번길 3-1",
-    "phone": "033-342-1129",
+    "number": "033-342-1129",
+    "recommenders": "대빵이, 빵아리, 이용운, 진수",
+    "disrecommenders": "❗️비추없음",
+    "score": "4",
     "memo": "정보 확인 필요",
-    "businessHours": "매일 07:00 - 20:00"
+    "businessHours": "매일 07:00 - 20:00",
+    "naverMapUrl": "https://map.naver.com/v5/search/뚝배기장원%20둔내면%20둔내로51번길%203-1"
   },
   {
     "name": "해물마당",
+    "menu": "아구찜, 포장 가능, 해물탕",
     "address": "강원 횡성군 둔내면 둔방로3번길 9",
-    "phone": "033-344-0555",
-    "memo": "아구찜, 포장 가능, 해물탕",
-    "businessHours": "매일 10:30 - 21:0014:30 - 16:30 브레이크타임"
+    "number": "033-344-0555",
+    "recommenders": "빵아리",
+    "disrecommenders": "진수",
+    "score": "0",
+    "memo": "정보 확인 필요",
+    "businessHours": "매일 10:30 - 21:0014:30 - 16:30 브레이크타임",
+    "naverMapUrl": "https://map.naver.com/v5/search/해물마당%20강원%20횡성군%20둔내면%20둔방로3번길%209"
   },
   {
     "name": "설화",
+    "menu": "갈비탕, 등심, 모듬구이, 투플러스나인취급",
     "address": "강원 횡성군 둔내면 고원로412번길 1-4 설화",
-    "phone": "033-343-1222",
-    "memo": "갈비탕, 등심, 모듬구이, 투플러스나인취급",
-    "businessHours": "11:00 - 21:3020:30 라스트오더"
+    "number": "033-343-1222",
+    "recommenders": "삽",
+    "disrecommenders": "❗️비추없음",
+    "score": "1",
+    "memo": "정보 확인 필요",
+    "businessHours": "11:00 - 21:3020:30 라스트오더",
+    "naverMapUrl": "https://map.naver.com/v5/search/설화%20강원%20횡성군%20둔내면%20고원로412번길%201-4%20설화"
   },
   {
     "name": "영해수산(영해횟집)",
+    "menu": "송어회, 활어회",
     "address": "강원 횡성군 고원로265번길 6",
-    "phone": "033-342-0074",
-    "memo": "송어회 추천(양 많음) 간판은 영해횟집으로 되어있음 | 송어회, 활어회",
-    "businessHours": "정보 확인 필요"
+    "number": "033-342-0074",
+    "recommenders": "삽, 진수",
+    "disrecommenders": "❗️비추없음",
+    "score": "2",
+    "memo": "송어회 추천(양 많음) 간판은 영해횟집으로 되어있음",
+    "businessHours": "정보 확인 필요",
+    "naverMapUrl": "https://map.naver.com/v5/search/영해수산(영해횟집)%20강원%20횡성군%20고원로265번길%206"
   },
   {
     "name": "장군숯불갈비",
+    "menu": "국산돼지갈비, 수입소생갈비, 우삼겹",
     "address": "강원 횡성군 둔내면 둔내로 40 1층",
-    "phone": "0507-1301-5332",
-    "memo": "상차림비 인당받고 고기사다가 구워먹어도 되고 식당에서파는 고기 구워먹어도 됨 | 국산돼지갈비, 수입소생갈비, 우삼겹",
-    "businessHours": "17:00 - 23:0022:00 라스트오더"
+    "number": "0507-1301-5332",
+    "recommenders": "삽",
+    "disrecommenders": "❗️비추없음",
+    "score": "1",
+    "memo": "상차림비 인당받고 고기사다가 구워먹어도 되고 식당에서파는 고기 구워먹어도 됨",
+    "businessHours": "17:00 - 23:0022:00 라스트오더",
+    "naverMapUrl": "https://map.naver.com/v5/search/장군숯불갈비%20강원%20횡성군%20둔내면%20둔내로%2040%201층"
   },
   {
     "name": "단골식당",
+    "menu": "김치찌개, 된장찌개, 청국장찌개",
     "address": "둔내면 둔내로51번길 20",
-    "phone": "033-342-1033",
-    "memo": "백반을 좋아한다면 여기 | 김치찌개, 된장찌개, 청국장찌개",
-    "businessHours": "매일 10:00 - 15:00"
+    "number": "033-342-1033",
+    "recommenders": "고융고",
+    "disrecommenders": "❗️비추없음",
+    "score": "1",
+    "memo": "백반을 좋아한다면 여기",
+    "businessHours": "매일 10:00 - 15:00",
+    "naverMapUrl": "https://map.naver.com/v5/search/단골식당%20둔내면%20둔내로51번길%2020"
   },
   {
     "name": "둔내 춘천닭갈비",
+    "menu": "춘천닭갈비",
     "address": "강원 횡성군 둔내면 둔내로 67-1",
-    "phone": "033-342-1128",
-    "memo": "치즈철판보끔밥필수 | 춘천닭갈비",
-    "businessHours": "12:00 - 21:30"
+    "number": "033-342-1128",
+    "recommenders": "비아",
+    "disrecommenders": "❗️비추없음",
+    "score": "1",
+    "memo": "치즈철판보끔밥필수",
+    "businessHours": "12:00 - 21:30",
+    "naverMapUrl": "https://map.naver.com/v5/search/둔내%20춘천닭갈비%20강원%20횡성군%20둔내면%20둔내로%2067-1"
   },
   {
     "name": "선비마을",
+    "menu": "백숙, 오리로스",
     "address": "강원 횡성군 둔내면 우용로 98",
-    "phone": "033-344-4455",
-    "memo": "영업하는지 미리 물어보고 가야함! | 백숙, 오리로스",
-    "businessHours": "정보 확인 필요"
+    "number": "033-344-4455",
+    "recommenders": "쁘락지",
+    "disrecommenders": "❗️비추없음",
+    "score": "1",
+    "memo": "영업하는지 미리 물어보고 가야함!",
+    "businessHours": "정보 확인 필요",
+    "naverMapUrl": "https://map.naver.com/v5/search/선비마을%20강원%20횡성군%20둔내면%20우용로%2098"
   },
   {
     "name": "커피드림",
+    "menu": "카페",
     "address": "정보 확인 필요",
-    "phone": "정보 확인 필요",
-    "memo": "드립커피 맛집 | 카페",
-    "businessHours": "월요일 휴무"
+    "number": "정보 확인 필요",
+    "recommenders": "고융고, 카와, 팝팝",
+    "disrecommenders": "❗️비추없음",
+    "score": "3",
+    "memo": "드립커피 맛집",
+    "businessHours": "월요일 휴무",
+    "naverMapUrl": "https://map.naver.com/v5/search/커피드림%20정보%20확인%20필요"
   },
   {
     "name": "일월 숯불 갈비",
+    "menu": "묵은지삼겹살, 숯불갈비",
     "address": "강원 횡성군 둔내면 둔방로 7",
-    "phone": "010-8802-6904",
-    "memo": "묵은지삼겹살, 숯불갈비",
-    "businessHours": "매일 10:00 - 22:00"
+    "number": "010-8802-6904",
+    "recommenders": "진수",
+    "disrecommenders": "❗️비추없음",
+    "score": "1",
+    "memo": "정보 확인 필요",
+    "businessHours": "매일 10:00 - 22:00",
+    "naverMapUrl": "https://map.naver.com/v5/search/일월%20숯불%20갈비%20강원%20횡성군%20둔내면%20둔방로%207"
   },
   {
     "name": "둔내김밥",
+    "menu": "김밥, 비빔국수, 잔치국수, 쫄면",
     "address": "강원 횡성군 둔내면 둔내로 61-1 둔내 김밥",
-    "phone": "0507-1434-0030",
-    "memo": "김밥, 비빔국수, 잔치국수, 쫄면",
-    "businessHours": "일요일 휴무06:00 - 18:00"
+    "number": "0507-1434-0030",
+    "recommenders": "호국이",
+    "disrecommenders": "❗️비추없음",
+    "score": "1",
+    "memo": "정보 확인 필요",
+    "businessHours": "일요일 휴무06:00 - 18:00",
+    "naverMapUrl": "https://map.naver.com/v5/search/둔내김밥%20강원%20횡성군%20둔내면%20둔내로%2061-1%20둔내%20김밥"
   },
   {
     "name": "옛날집",
+    "menu": "돈가스, 뚝도리탕, 순대국",
     "address": "강원 횡성군 둔내로51번길 15",
-    "phone": "033-342-1028",
-    "memo": "돈가스, 뚝도리탕, 순대국",
-    "businessHours": "정보 확인 필요"
+    "number": "033-342-1028",
+    "recommenders": "대빵이, 진수",
+    "disrecommenders": "❗️비추없음",
+    "score": "2",
+    "memo": "정보 확인 필요",
+    "businessHours": "정보 확인 필요",
+    "naverMapUrl": "https://map.naver.com/v5/search/옛날집%20강원%20횡성군%20둔내로51번길%2015"
   },
   {
     "name": "청용막국수",
+    "menu": "만두국, 메밀막국수",
     "address": "강원 횡성군 경강로둔방6길 2",
-    "phone": "033-345-5526",
-    "memo": "만두국, 메밀막국수",
-    "businessHours": "정보 확인 필요"
+    "number": "033-345-5526",
+    "recommenders": "❗️추천없음",
+    "disrecommenders": "❗️비추없음",
+    "score": "0",
+    "memo": "정보 확인 필요",
+    "businessHours": "정보 확인 필요",
+    "naverMapUrl": "https://map.naver.com/v5/search/청용막국수%20강원%20횡성군%20경강로둔방6길%202"
   },
   {
     "name": "고원곰탕",
+    "menu": "곰탕, 보쌈수육",
     "address": "강원 횡성군 둔내면 고원로 305 고원곰탕",
-    "phone": "0507-1333-1253",
-    "memo": "뜨끈하게 한사발 | 곰탕, 보쌈수육",
-    "businessHours": "19:30 라스트오더"
+    "number": "0507-1333-1253",
+    "recommenders": "대빵이, 진수",
+    "disrecommenders": "❗️비추없음",
+    "score": "2",
+    "memo": "뜨끈하게 한사발",
+    "businessHours": "19:30 라스트오더",
+    "naverMapUrl": "https://map.naver.com/v5/search/고원곰탕%20강원%20횡성군%20둔내면%20고원로%20305%20고원곰탕"
   },
   {
     "name": "호림촌두부",
+    "menu": "두부전골, 버섯전골, 청국장찌개",
     "address": "강원 횡성군 둔내면 둔방내리 317-1",
-    "phone": "033-343-4032",
-    "memo": "전골!염소탕집으로 바뀌었다고합니다 | 두부전골, 버섯전골, 청국장찌개",
-    "businessHours": "정보 확인 필요"
+    "number": "033-343-4032",
+    "recommenders": "쁘락지",
+    "disrecommenders": "❗️비추없음",
+    "score": "1",
+    "memo": "전골!염소탕집으로 바뀌었다고합니다",
+    "businessHours": "정보 확인 필요",
+    "naverMapUrl": "https://map.naver.com/v5/search/호림촌두부%20강원%20횡성군%20둔내면%20둔방내리%20317-1"
   }
 ]

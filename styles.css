@@ -66,6 +66,15 @@ body {
 .error { color: #fca5a5; }
 .empty { color: #cbd5e1; }
 
+.map-link {
+  color: #7dd3fc;
+  text-decoration: none;
+  font-weight: 600;
+}
+.map-link:hover {
+  text-decoration: underline;
+}
+
 .footer {
   text-align: center;
   padding: 14px;
