@@ -18,7 +18,7 @@ btnResetEl.addEventListener("click", () => {
   qMenuEl.value = "";
   qAddressEl.value = "";
   scoreFilterEl.value = "";
-  sortByEl.value = "scoreDesc";
+  sortByEl.value = "nameAsc";
   applyFilters();
 });
 
@@ -84,9 +84,9 @@ function applyFilters() {
 
   filtered.sort((a, b) => {
     if (sortBy === "scoreAsc") return Number(a.score) - Number(b.score);
-    if (sortBy === "nameAsc") return a.name.localeCompare(b.name, "ko");
+    if (sortBy === "scoreDesc") return Number(b.score) - Number(a.score);
     if (sortBy === "nameDesc") return b.name.localeCompare(a.name, "ko");
-    return Number(b.score) - Number(a.score); // scoreDesc(default)
+    return a.name.localeCompare(b.name, "ko"); // nameAsc(default)
   });
 
   if (!filtered.length) {
