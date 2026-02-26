@@ -55,7 +55,7 @@ function validateRestaurant(item, idx) {
     recommenders: valueOrDefault(item.recommenders, "❗️추천없음"),
     disrecommenders: valueOrDefault(item.disrecommenders, "❗️비추없음"),
     score: valueOrDefault(item.score, "0"),
-    memo: valueOrDefault(item.memo, "정보 확인 필요"),
+    memo: valueOrDefault(item.memo, ""),
     businessHours: valueOrDefault(item.businessHours, "정보 확인 필요"),
     naverMapUrl: item.naverMapUrl || buildNaverMapUrl(name, address)
   };
