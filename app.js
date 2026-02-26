@@ -1,7 +1,23 @@
 const REQUIRED_FIELDS = ["name", "address"];
+let allItems = [];
 
 const statusEl = document.getElementById("status");
-const listEl = document.getElementById("list");
+const tbodyEl = document.getElementById("tbody");
+const qNameEl = document.getElementById("qName");
+const qMenuEl = document.getElementById("qMenu");
+const qAddressEl = document.getElementById("qAddress");
+const scoreFilterEl = document.getElementById("scoreFilter");
+const btnResetEl = document.getElementById("btnReset");
+
+[qNameEl, qMenuEl, qAddressEl].forEach(el => el.addEventListener("input", applyFilters));
+scoreFilterEl.addEventListener("change", applyFilters);
+btnResetEl.addEventListener("click", () => {
+  qNameEl.value = "";
+  qMenuEl.value = "";
+  qAddressEl.value = "";
+  scoreFilterEl.value = "";
+  applyFilters();
+});
 
 initApp();
 
@@ -9,15 +25,8 @@ async function initApp() {
   setStatus("데이터를 불러오는 중...");
 
   try {
-    const items = await loadRestaurants();
-
-    if (!items.length) {
-      renderEmptyState();
-      return;
-    }
-
-    renderRestaurantList(items);
-    setStatus(`총 ${items.length}개의 맛집을 찾았어.`);
+    allItems = await loadRestaurants();
+    applyFilters();
   } catch (err) {
     renderErrorState(err);
   }
@@ -29,24 +38,15 @@ async function loadRestaurants() {
 
   const data = await res.json();
   if (!Array.isArray(data)) throw new Error("데이터 형식 오류: 배열이 아님");
-
   return data.map((item, idx) => validateRestaurant(item, idx));
 }
 
 function validateRestaurant(item, idx) {
-  if (!item || typeof item !== "object") {
-    throw new Error(`${idx + 1}번 데이터 오류: 객체가 아님`);
-  }
-
-  for (const field of REQUIRED_FIELDS) {
-    if (!(field in item)) {
-      throw new Error(`${idx + 1}번 데이터 오류: ${field} 누락`);
-    }
-  }
+  if (!item || typeof item !== "object") throw new Error(`${idx + 1}번 데이터 오류: 객체가 아님`);
+  for (const field of REQUIRED_FIELDS) if (!(field in item)) throw new Error(`${idx + 1}번 데이터 오류: ${field} 누락`);
 
   const name = valueOrDefault(item.name, "정보 확인 필요");
   const address = valueOrDefault(item.address, "정보 확인 필요");
-
   return {
     name,
     menu: valueOrDefault(item.menu, "정보 확인 필요"),
@@ -61,50 +61,68 @@ function validateRestaurant(item, idx) {
   };
 }
 
-function buildNaverMapUrl(name, address) {
-  const q = encodeURIComponent(`${name} ${address}`.trim());
-  return `https://map.naver.com/v5/search/${q}`;
+function applyFilters() {
+  const qName = qNameEl.value.trim().toLowerCase();
+  const qMenu = qMenuEl.value.trim().toLowerCase();
+  const qAddress = qAddressEl.value.trim().toLowerCase();
+  const scoreMode = scoreFilterEl.value;
+
+  const filtered = allItems.filter(it => {
+    if (qName && !it.name.toLowerCase().includes(qName)) return false;
+    if (qMenu && !it.menu.toLowerCase().includes(qMenu)) return false;
+    if (qAddress && !it.address.toLowerCase().includes(qAddress)) return false;
+
+    const s = Number(it.score);
+    if (scoreMode === "pos" && !(s >= 0)) return false;
+    if (scoreMode === "neg" && !(s < 0)) return false;
+    return true;
+  });
+
+  if (!filtered.length) {
+    tbodyEl.innerHTML = `<tr><td colspan="10" class="empty">조건에 맞는 맛집이 없습니다.</td></tr>`;
+    setStatus(`필터 결과 0건 / 전체 ${allItems.length}건`);
+    return;
+  }
+
+  tbodyEl.innerHTML = filtered.map(renderRow).join("");
+  setStatus(`필터 결과 ${filtered.length}건 / 전체 ${allItems.length}건`);
+}
+
+function renderRow(item) {
+  return `
+    <tr>
+      <td>${escapeHtml(item.name)}</td>
+      <td>${escapeHtml(item.menu)}</td>
+      <td>${escapeHtml(item.address)}</td>
+      <td>${escapeHtml(item.number)}</td>
+      <td>${escapeHtml(item.recommenders)}</td>
+      <td>${escapeHtml(item.disrecommenders)}</td>
+      <td>${escapeHtml(item.score)}</td>
+      <td>${escapeHtml(item.memo)}</td>
+      <td>${escapeHtml(item.businessHours)}</td>
+      <td><a class="map-link" href="${escapeAttr(item.naverMapUrl)}" target="_blank" rel="noopener noreferrer">네이버지도</a></td>
+    </tr>
+  `;
+}
+
+function renderErrorState(err) {
+  console.error(err);
+  setStatus("데이터를 불러오지 못했어. 잠시 후 다시 시도해줘.", true);
+  tbodyEl.innerHTML = `<tr><td colspan="10" class="error">오류: ${escapeHtml(err.message || String(err))}</td></tr>`;
+}
+
+function setStatus(message, isError = false) {
+  statusEl.textContent = message;
+  statusEl.className = `status${isError ? " error" : ""}`;
 }
 
 function valueOrDefault(v, fallback) {
   return String(v ?? "").trim() || fallback;
 }
 
-function renderRestaurantList(items) {
-  listEl.innerHTML = items.map(renderRestaurantCard).join("");
-}
-
-function renderRestaurantCard(item) {
-  return `
-    <article class="card">
-      <h2 class="name">${escapeHtml(item.name)}</h2>
-      <p class="row"><span class="label">Menu 및 기타</span>${escapeHtml(item.menu)}</p>
-      <p class="row"><span class="label">Address</span>${escapeHtml(item.address)}</p>
-      <p class="row"><span class="label">Number</span>${escapeHtml(item.number)}</p>
-      <p class="row"><span class="label">추천자</span>${escapeHtml(item.recommenders)}</p>
-      <p class="row"><span class="label">비추천자</span>${escapeHtml(item.disrecommenders)}</p>
-      <p class="row"><span class="label">추-비추</span>${escapeHtml(item.score)}</p>
-      <p class="row"><span class="label">메모</span>${escapeHtml(item.memo)}</p>
-      <p class="row"><span class="label">영업 시간</span>${escapeHtml(item.businessHours)}</p>
-      <p class="row"><a class="map-link" href="${escapeAttr(item.naverMapUrl)}" target="_blank" rel="noopener noreferrer">🗺️ 네이버 지도 보기</a></p>
-    </article>
-  `;
-}
-
-function renderEmptyState() {
-  setStatus("등록된 맛집이 아직 없어.");
-  listEl.innerHTML = `<p class="empty">등록된 맛집이 없습니다.</p>`;
-}
-
-function renderErrorState(err) {
-  console.error(err);
-  setStatus("데이터를 불러오지 못했어. 잠시 후 다시 시도해줘.", true);
-  listEl.innerHTML = `<p class="error">오류가 발생했습니다: ${escapeHtml(err.message || String(err))}</p>`;
-}
-
-function setStatus(message, isError = false) {
-  statusEl.textContent = message;
-  statusEl.className = `status${isError ? " error" : ""}`;
+function buildNaverMapUrl(name, address) {
+  const q = encodeURIComponent(`${name} ${address}`.trim());
+  return `https://map.naver.com/v5/search/${q}`;
 }
 
 function escapeHtml(str) {
