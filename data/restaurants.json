@@ -7,7 +7,7 @@
     "recommenders": "❗️추천없음",
     "disrecommenders": "❗️비추없음",
     "score": "0",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "매일 11:00 - 20:00",
     "naverMapUrl": "https://map.naver.com/v5/search/행운식당%20강원%20횡성군%20둔내면%20둔내로51번길%2010-2"
   },
@@ -19,7 +19,7 @@
     "recommenders": "대빵이, 쁘락지, 진수",
     "disrecommenders": "❗️비추없음",
     "score": "3",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "일요일 정기휴무11:30 - 22:00",
     "naverMapUrl": "https://map.naver.com/v5/search/시장순대%20강원%20횡성군%20둔내면%20둔내로%209-6"
   },
@@ -31,7 +31,7 @@
     "recommenders": "❗️추천없음",
     "disrecommenders": "❗️비추없음",
     "score": "0",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "정보 확인 필요",
     "naverMapUrl": "https://map.naver.com/v5/search/둔내역한우%20강원%20횡성군%20둔내면%20고원로%20117%20둔내역한우%20본관"
   },
@@ -43,7 +43,7 @@
     "recommenders": "이므니",
     "disrecommenders": "❗️비추없음",
     "score": "1",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "매일 10:20 - 21:30",
     "naverMapUrl": "https://map.naver.com/v5/search/한우피아%20강원%20횡성군%20둔내면%20고원로%20141"
   },
@@ -55,7 +55,7 @@
     "recommenders": "고융고, 진수",
     "disrecommenders": "❗️비추없음",
     "score": "2",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "월/화 휴무11:00 - 21:0015:00 - 16:30 브레이크타임14:00, 20:00 라스트오더",
     "naverMapUrl": "https://map.naver.com/v5/search/들꽃피는언덕%20강원%20횡성군%20둔내면%20고원로%20158-27"
   },
@@ -79,7 +79,7 @@
     "recommenders": "고융고",
     "disrecommenders": "❗️비추없음",
     "score": "1",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "수요일 휴무11:00 - 21:0015:00 - 17:00 브레이크타임",
     "naverMapUrl": "https://map.naver.com/v5/search/미락%20강원%20횡성군%20둔내면%20둔방로%208%20둔방로%208"
   },
@@ -103,7 +103,7 @@
     "recommenders": "고융고, 쁘락지, 진수",
     "disrecommenders": "❗️비추없음",
     "score": "3",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "매일 09:00 - 21:00",
     "naverMapUrl": "https://map.naver.com/v5/search/산속의%20곰탕%20강원%20횡성군%20둔내면%20둔내로51번길%209-1"
   },
@@ -127,7 +127,7 @@
     "recommenders": "고융고, 진수",
     "disrecommenders": "❗️비추없음",
     "score": "2",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "월요일 정기휴무10:00 - 14:30",
     "naverMapUrl": "https://map.naver.com/v5/search/어랑%20강원%20횡성군%20둔내면%20둔방로13번길%2013"
   },
@@ -163,7 +163,7 @@
     "recommenders": "❗️추천없음",
     "disrecommenders": "❗️비추없음",
     "score": "0",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "화요일 휴무월,수,목[금-일]16:00-23:00[16:00-23:50]22:00 라스트오더[22:50]",
     "naverMapUrl": "https://map.naver.com/v5/search/마루%20강원%20횡성군%20둔내면%20고원로398번길%206-20"
   },
@@ -175,7 +175,7 @@
     "recommenders": "❗️추천없음",
     "disrecommenders": "쁘락지",
     "score": "-1",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "11:00 - 21:30",
     "naverMapUrl": "https://map.naver.com/v5/search/화수목%20강원%20횡성군%20둔내면%20둔방내리%2055-3"
   },
@@ -187,7 +187,7 @@
     "recommenders": "❗️추천없음",
     "disrecommenders": "❗️비추없음",
     "score": "0",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "12:00 - 21:0015:00 - 17:00 브레이크타임",
     "naverMapUrl": "https://map.naver.com/v5/search/문화정육점%20강원%20횡성군%20둔내면%20둔방로%209"
   },
@@ -199,7 +199,7 @@
     "recommenders": "고융고, 남민혁",
     "disrecommenders": "❗️비추없음",
     "score": "2",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "매일 11:00 - 24:00",
     "naverMapUrl": "https://map.naver.com/v5/search/둔내%20숯불%20닭갈비%20강원%20횡성군%20둔내면%20둔내로48번길%203-7"
   },
@@ -247,7 +247,7 @@
     "recommenders": "대빵이, 빵아리, 이용운, 진수",
     "disrecommenders": "❗️비추없음",
     "score": "4",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "매일 07:00 - 20:00",
     "naverMapUrl": "https://map.naver.com/v5/search/뚝배기장원%20둔내면%20둔내로51번길%203-1"
   },
@@ -259,7 +259,7 @@
     "recommenders": "빵아리",
     "disrecommenders": "진수",
     "score": "0",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "매일 10:30 - 21:0014:30 - 16:30 브레이크타임",
     "naverMapUrl": "https://map.naver.com/v5/search/해물마당%20강원%20횡성군%20둔내면%20둔방로3번길%209"
   },
@@ -271,7 +271,7 @@
     "recommenders": "삽",
     "disrecommenders": "❗️비추없음",
     "score": "1",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "11:00 - 21:3020:30 라스트오더",
     "naverMapUrl": "https://map.naver.com/v5/search/설화%20강원%20횡성군%20둔내면%20고원로412번길%201-4%20설화"
   },
@@ -355,7 +355,7 @@
     "recommenders": "진수",
     "disrecommenders": "❗️비추없음",
     "score": "1",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "매일 10:00 - 22:00",
     "naverMapUrl": "https://map.naver.com/v5/search/일월%20숯불%20갈비%20강원%20횡성군%20둔내면%20둔방로%207"
   },
@@ -367,7 +367,7 @@
     "recommenders": "호국이",
     "disrecommenders": "❗️비추없음",
     "score": "1",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "일요일 휴무06:00 - 18:00",
     "naverMapUrl": "https://map.naver.com/v5/search/둔내김밥%20강원%20횡성군%20둔내면%20둔내로%2061-1%20둔내%20김밥"
   },
@@ -379,7 +379,7 @@
     "recommenders": "대빵이, 진수",
     "disrecommenders": "❗️비추없음",
     "score": "2",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "정보 확인 필요",
     "naverMapUrl": "https://map.naver.com/v5/search/옛날집%20강원%20횡성군%20둔내로51번길%2015"
   },
@@ -391,7 +391,7 @@
     "recommenders": "❗️추천없음",
     "disrecommenders": "❗️비추없음",
     "score": "0",
-    "memo": "정보 확인 필요",
+    "memo": "",
     "businessHours": "정보 확인 필요",
     "naverMapUrl": "https://map.naver.com/v5/search/청용막국수%20강원%20횡성군%20경강로둔방6길%202"
   },
