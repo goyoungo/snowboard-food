@@ -7,15 +7,18 @@ const qNameEl = document.getElementById("qName");
 const qMenuEl = document.getElementById("qMenu");
 const qAddressEl = document.getElementById("qAddress");
 const scoreFilterEl = document.getElementById("scoreFilter");
+const sortByEl = document.getElementById("sortBy");
 const btnResetEl = document.getElementById("btnReset");
 
 [qNameEl, qMenuEl, qAddressEl].forEach(el => el.addEventListener("input", applyFilters));
 scoreFilterEl.addEventListener("change", applyFilters);
+sortByEl.addEventListener("change", applyFilters);
 btnResetEl.addEventListener("click", () => {
   qNameEl.value = "";
   qMenuEl.value = "";
   qAddressEl.value = "";
   scoreFilterEl.value = "";
+  sortByEl.value = "scoreDesc";
   applyFilters();
 });
 
@@ -66,6 +69,7 @@ function applyFilters() {
   const qMenu = qMenuEl.value.trim().toLowerCase();
   const qAddress = qAddressEl.value.trim().toLowerCase();
   const scoreMode = scoreFilterEl.value;
+  const sortBy = sortByEl.value;
 
   const filtered = allItems.filter(it => {
     if (qName && !it.name.toLowerCase().includes(qName)) return false;
@@ -76,6 +80,13 @@ function applyFilters() {
     if (scoreMode === "pos" && !(s >= 0)) return false;
     if (scoreMode === "neg" && !(s < 0)) return false;
     return true;
+  });
+
+  filtered.sort((a, b) => {
+    if (sortBy === "scoreAsc") return Number(a.score) - Number(b.score);
+    if (sortBy === "nameAsc") return a.name.localeCompare(b.name, "ko");
+    if (sortBy === "nameDesc") return b.name.localeCompare(a.name, "ko");
+    return Number(b.score) - Number(a.score); // scoreDesc(default)
   });
 
   if (!filtered.length) {
