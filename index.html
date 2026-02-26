@@ -17,6 +17,11 @@
       <input id="qName" type="text" placeholder="가게명 검색" />
       <input id="qMenu" type="text" placeholder="메뉴/기타 검색" />
       <input id="qAddress" type="text" placeholder="주소 검색" />
+      <select id="statusFilter">
+        <option value="운영중" selected>운영중만</option>
+        <option value="폐업/변경">폐업/변경만</option>
+        <option value="">상태 전체</option>
+      </select>
       <select id="scoreFilter">
         <option value="">추-비추 전체</option>
         <option value="pos">0 이상</option>
@@ -37,6 +42,7 @@
       <table>
         <thead>
           <tr>
+            <th>상태</th>
             <th>Name</th>
             <th>Menu 및 기타</th>
             <th>Address</th>

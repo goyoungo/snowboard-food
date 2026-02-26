@@ -6,17 +6,20 @@ const tbodyEl = document.getElementById("tbody");
 const qNameEl = document.getElementById("qName");
 const qMenuEl = document.getElementById("qMenu");
 const qAddressEl = document.getElementById("qAddress");
+const statusFilterEl = document.getElementById("statusFilter");
 const scoreFilterEl = document.getElementById("scoreFilter");
 const sortByEl = document.getElementById("sortBy");
 const btnResetEl = document.getElementById("btnReset");
 
 [qNameEl, qMenuEl, qAddressEl].forEach(el => el.addEventListener("input", applyFilters));
+statusFilterEl.addEventListener("change", applyFilters);
 scoreFilterEl.addEventListener("change", applyFilters);
 sortByEl.addEventListener("change", applyFilters);
 btnResetEl.addEventListener("click", () => {
   qNameEl.value = "";
   qMenuEl.value = "";
   qAddressEl.value = "";
+  statusFilterEl.value = "운영중";
   scoreFilterEl.value = "";
   sortByEl.value = "nameAsc";
   applyFilters();
@@ -51,6 +54,7 @@ function validateRestaurant(item, idx) {
   const name = valueOrDefault(item.name, "정보 확인 필요");
   const address = valueOrDefault(item.address, "정보 확인 필요");
   return {
+    status: valueOrDefault(item.status, "운영중"),
     name,
     menu: valueOrDefault(item.menu, "정보 확인 필요"),
     address,
@@ -68,10 +72,12 @@ function applyFilters() {
   const qName = qNameEl.value.trim().toLowerCase();
   const qMenu = qMenuEl.value.trim().toLowerCase();
   const qAddress = qAddressEl.value.trim().toLowerCase();
+  const statusMode = statusFilterEl.value;
   const scoreMode = scoreFilterEl.value;
   const sortBy = sortByEl.value;
 
   const filtered = allItems.filter(it => {
+    if (statusMode && it.status !== statusMode) return false;
     if (qName && !it.name.toLowerCase().includes(qName)) return false;
     if (qMenu && !it.menu.toLowerCase().includes(qMenu)) return false;
     if (qAddress && !it.address.toLowerCase().includes(qAddress)) return false;
@@ -90,7 +96,7 @@ function applyFilters() {
   });
 
   if (!filtered.length) {
-    tbodyEl.innerHTML = `<tr><td colspan="10" class="empty">조건에 맞는 맛집이 없습니다.</td></tr>`;
+    tbodyEl.innerHTML = `<tr><td colspan="11" class="empty">조건에 맞는 맛집이 없습니다.</td></tr>`;
     setStatus(`필터 결과 0건 / 전체 ${allItems.length}건`);
     return;
   }
@@ -102,6 +108,7 @@ function applyFilters() {
 function renderRow(item) {
   return `
     <tr>
+      <td>${escapeHtml(item.status)}</td>
       <td>${escapeHtml(item.name)}</td>
       <td>${escapeHtml(item.menu)}</td>
       <td>${escapeHtml(item.address)}</td>
@@ -119,7 +126,7 @@ function renderRow(item) {
 function renderErrorState(err) {
   console.error(err);
   setStatus("데이터를 불러오지 못했어. 잠시 후 다시 시도해줘.", true);
-  tbodyEl.innerHTML = `<tr><td colspan="10" class="error">오류: ${escapeHtml(err.message || String(err))}</td></tr>`;
+  tbodyEl.innerHTML = `<tr><td colspan="11" class="error">오류: ${escapeHtml(err.message || String(err))}</td></tr>`;
 }
 
 function setStatus(message, isError = false) {

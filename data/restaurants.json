@@ -1,5 +1,6 @@
 [
   {
+    "status": "운영중",
     "name": "행운식당",
     "menu": "영양탕",
     "address": "강원 횡성군 둔내면 둔내로51번길 10-2",
@@ -12,6 +13,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/행운식당%20강원%20횡성군%20둔내면%20둔내로51번길%2010-2"
   },
   {
+    "status": "운영중",
     "name": "시장순대",
     "menu": "순대국, 육개장",
     "address": "강원 횡성군 둔내면 둔내로 9-6",
@@ -24,6 +26,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/시장순대%20강원%20횡성군%20둔내면%20둔내로%209-6"
   },
   {
+    "status": "운영중",
     "name": "둔내역한우",
     "menu": "횡성한우",
     "address": "강원 횡성군 둔내면 고원로 117 둔내역한우 본관",
@@ -36,6 +39,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/둔내역한우%20강원%20횡성군%20둔내면%20고원로%20117%20둔내역한우%20본관"
   },
   {
+    "status": "운영중",
     "name": "한우피아",
     "menu": "횡성한우",
     "address": "강원 횡성군 둔내면 고원로 141",
@@ -48,6 +52,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/한우피아%20강원%20횡성군%20둔내면%20고원로%20141"
   },
   {
+    "status": "운영중",
     "name": "들꽃피는언덕",
     "menu": "눈오면 썰매, 쌈밥, 주차",
     "address": "강원 횡성군 둔내면 고원로 158-27",
@@ -60,6 +65,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/들꽃피는언덕%20강원%20횡성군%20둔내면%20고원로%20158-27"
   },
   {
+    "status": "운영중",
     "name": "청솔순대",
     "menu": "순대국, 순대볶음, 포장 가능",
     "address": "강원 횡성군 둔내면 둔내로51번길 10-1",
@@ -72,6 +78,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/청솔순대%20강원%20횡성군%20둔내면%20둔내로51번길%2010-1"
   },
   {
+    "status": "운영중",
     "name": "미락",
     "menu": "기본반찬:게장, 김치찜, 오삼불고기, 주차",
     "address": "강원 횡성군 둔내면 둔방로 8 둔방로 8",
@@ -84,6 +91,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/미락%20강원%20횡성군%20둔내면%20둔방로%208%20둔방로%208"
   },
   {
+    "status": "운영중",
     "name": "언덕위에장독대",
     "menu": "묵은지삼겹살",
     "address": "강원 횡성군 둔내면 둔내로 93-12",
@@ -96,6 +104,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/언덕위에장독대%20강원%20횡성군%20둔내면%20둔내로%2093-12"
   },
   {
+    "status": "운영중",
     "name": "산속의 곰탕",
     "menu": "곱창전골, 포장 가능",
     "address": "강원 횡성군 둔내면 둔내로51번길 9-1",
@@ -108,6 +117,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/산속의%20곰탕%20강원%20횡성군%20둔내면%20둔내로51번길%209-1"
   },
   {
+    "status": "운영중",
     "name": "자매식당",
     "menu": "만둣국, 장칼국수",
     "address": "강원 횡성군 둔내면 둔내로51번길 14",
@@ -120,6 +130,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/자매식당%20강원%20횡성군%20둔내면%20둔내로51번길%2014"
   },
   {
+    "status": "운영중",
     "name": "어랑",
     "menu": "동태탕",
     "address": "강원 횡성군 둔내면 둔방로13번길 13",
@@ -132,6 +143,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/어랑%20강원%20횡성군%20둔내면%20둔방로13번길%2013"
   },
   {
+    "status": "운영중",
     "name": "해우소",
     "menu": "장칼국수, 전골, 포장 가능, 해물순두부",
     "address": "강원 횡성군 둔내면 둔내로51번길 5",
@@ -144,6 +156,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/해우소%20강원%20횡성군%20둔내면%20둔내로51번길%205"
   },
   {
+    "status": "운영중",
     "name": "삼정",
     "menu": "횡성한우",
     "address": "강원 횡성군 둔내면 경강로 4536-3 삼정",
@@ -156,6 +169,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/삼정%20강원%20횡성군%20둔내면%20경강로%204536-3%20삼정"
   },
   {
+    "status": "운영중",
     "name": "마루",
     "menu": "김치찜, 오징어볶음, 주차, 포장 가능",
     "address": "강원 횡성군 둔내면 고원로398번길 6-20",
@@ -168,6 +182,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/마루%20강원%20횡성군%20둔내면%20고원로398번길%206-20"
   },
   {
+    "status": "운영중",
     "name": "화수목",
     "menu": "횡성한우",
     "address": "강원 횡성군 둔내면 둔방내리 55-3",
@@ -180,6 +195,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/화수목%20강원%20횡성군%20둔내면%20둔방내리%2055-3"
   },
   {
+    "status": "운영중",
     "name": "문화정육점",
     "menu": "고기, 주차",
     "address": "강원 횡성군 둔내면 둔방로 9",
@@ -192,6 +208,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/문화정육점%20강원%20횡성군%20둔내면%20둔방로%209"
   },
   {
+    "status": "운영중",
     "name": "둔내 숯불 닭갈비",
     "menu": "숯불닭갈비, 잔치국수, 주차",
     "address": "강원 횡성군 둔내면 둔내로48번길 3-7",
@@ -204,6 +221,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/둔내%20숯불%20닭갈비%20강원%20횡성군%20둔내면%20둔내로48번길%203-7"
   },
   {
+    "status": "운영중",
     "name": "둔내 웅이네",
     "menu": "옹심이칼국수, 짜장면, 탕수육, 포장 가능",
     "address": "강원 횡성군 둔내면 청태산로 89",
@@ -216,6 +234,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/둔내%20웅이네%20강원%20횡성군%20둔내면%20청태산로%2089"
   },
   {
+    "status": "운영중",
     "name": "인더하우스",
     "menu": "포장 가능, 화덕피자",
     "address": "강원 횡성군 둔내면 둔내로 62-2",
@@ -228,6 +247,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/인더하우스%20강원%20횡성군%20둔내면%20둔내로%2062-2"
   },
   {
+    "status": "운영중",
     "name": "화이트크로우 브루잉",
     "menu": "맥주, 수제맥주, 펍, 푸틴, 피자",
     "address": "강원도 평창군 방림면 고원로 65",
@@ -240,6 +260,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/화이트크로우%20브루잉%20강원도%20평창군%20방림면%20고원로%2065"
   },
   {
+    "status": "운영중",
     "name": "뚝배기장원",
     "menu": "정보 확인 필요",
     "address": "둔내면 둔내로51번길 3-1",
@@ -252,6 +273,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/뚝배기장원%20둔내면%20둔내로51번길%203-1"
   },
   {
+    "status": "운영중",
     "name": "해물마당",
     "menu": "아구찜, 포장 가능, 해물탕",
     "address": "강원 횡성군 둔내면 둔방로3번길 9",
@@ -264,6 +286,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/해물마당%20강원%20횡성군%20둔내면%20둔방로3번길%209"
   },
   {
+    "status": "운영중",
     "name": "설화",
     "menu": "갈비탕, 등심, 모듬구이, 투플러스나인취급",
     "address": "강원 횡성군 둔내면 고원로412번길 1-4 설화",
@@ -276,6 +299,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/설화%20강원%20횡성군%20둔내면%20고원로412번길%201-4%20설화"
   },
   {
+    "status": "운영중",
     "name": "영해수산(영해횟집)",
     "menu": "송어회, 활어회",
     "address": "강원 횡성군 고원로265번길 6",
@@ -288,6 +312,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/영해수산(영해횟집)%20강원%20횡성군%20고원로265번길%206"
   },
   {
+    "status": "운영중",
     "name": "장군숯불갈비",
     "menu": "국산돼지갈비, 수입소생갈비, 우삼겹",
     "address": "강원 횡성군 둔내면 둔내로 40 1층",
@@ -300,6 +325,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/장군숯불갈비%20강원%20횡성군%20둔내면%20둔내로%2040%201층"
   },
   {
+    "status": "운영중",
     "name": "단골식당",
     "menu": "김치찌개, 된장찌개, 청국장찌개",
     "address": "둔내면 둔내로51번길 20",
@@ -312,6 +338,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/단골식당%20둔내면%20둔내로51번길%2020"
   },
   {
+    "status": "운영중",
     "name": "둔내 춘천닭갈비",
     "menu": "춘천닭갈비",
     "address": "강원 횡성군 둔내면 둔내로 67-1",
@@ -324,6 +351,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/둔내%20춘천닭갈비%20강원%20횡성군%20둔내면%20둔내로%2067-1"
   },
   {
+    "status": "운영중",
     "name": "선비마을",
     "menu": "백숙, 오리로스",
     "address": "강원 횡성군 둔내면 우용로 98",
@@ -336,6 +364,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/선비마을%20강원%20횡성군%20둔내면%20우용로%2098"
   },
   {
+    "status": "운영중",
     "name": "커피드림",
     "menu": "카페",
     "address": "정보 확인 필요",
@@ -348,6 +377,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/커피드림%20정보%20확인%20필요"
   },
   {
+    "status": "운영중",
     "name": "일월 숯불 갈비",
     "menu": "묵은지삼겹살, 숯불갈비",
     "address": "강원 횡성군 둔내면 둔방로 7",
@@ -360,6 +390,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/일월%20숯불%20갈비%20강원%20횡성군%20둔내면%20둔방로%207"
   },
   {
+    "status": "운영중",
     "name": "둔내김밥",
     "menu": "김밥, 비빔국수, 잔치국수, 쫄면",
     "address": "강원 횡성군 둔내면 둔내로 61-1 둔내 김밥",
@@ -372,6 +403,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/둔내김밥%20강원%20횡성군%20둔내면%20둔내로%2061-1%20둔내%20김밥"
   },
   {
+    "status": "운영중",
     "name": "옛날집",
     "menu": "돈가스, 뚝도리탕, 순대국",
     "address": "강원 횡성군 둔내로51번길 15",
@@ -384,6 +416,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/옛날집%20강원%20횡성군%20둔내로51번길%2015"
   },
   {
+    "status": "운영중",
     "name": "청용막국수",
     "menu": "만두국, 메밀막국수",
     "address": "강원 횡성군 경강로둔방6길 2",
@@ -396,6 +429,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/청용막국수%20강원%20횡성군%20경강로둔방6길%202"
   },
   {
+    "status": "운영중",
     "name": "고원곰탕",
     "menu": "곰탕, 보쌈수육",
     "address": "강원 횡성군 둔내면 고원로 305 고원곰탕",
@@ -408,6 +442,7 @@
     "naverMapUrl": "https://map.naver.com/v5/search/고원곰탕%20강원%20횡성군%20둔내면%20고원로%20305%20고원곰탕"
   },
   {
+    "status": "폐업/변경",
     "name": "호림촌두부",
     "menu": "두부전골, 버섯전골, 청국장찌개",
     "address": "강원 횡성군 둔내면 둔방내리 317-1",
